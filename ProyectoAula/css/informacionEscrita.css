@@ -23,6 +23,8 @@ section ul li a {
 
 img {
   height: 20vw;
+  width: 20vw;
   margin: auto;
   border-radius: 30px;
+  object-fit: cover;
 }
