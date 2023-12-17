@@ -1,29 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/creditos.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/menu.css" />
     <title>Creditos y Referencias</title>
+    <link rel="shortcut icon" href="../assets/logo.svg" type="image/x-icon" />
     <link
-    rel="shortcut icon"
-    href="../../assets/pictures/svg/logo.svg"
-    type="image/x-icon"
-  />
-</head>
-<body background="https://images.pexels.com/photos/1261728/pexels-photo-1261728.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
-  <header id="block">
-     <nav>
+      rel="shortcut icon"
+      href="../../assets/pictures/svg/logo.svg"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <nav>
+      <a href="../index.html" style="height: 50px; width: 70px" id="house"
+        ><img id="imagen1" src="../assets/house-black.svg" alt=""
+      /></a>
       <ul>
-        <li><a href="../index.html"><img id="imagen1" src="../assets/house-black.svg" alt=""></a></li>
-        <li><a href="objetivosProyecto.html">Objetivo del proyecto</a></li>
-        <li><a href="../items/informacion-escrita.html">Información escrita</a></li>
-        <li><a href="videos.html">Videos</a></li>
-        <li><a href="creditosReferencias.html">Creditos y referencias</a></li>
-        <li><a href="juegos.html">Juegos</a></li>
+        <li id="nav">
+          <button class="nav-boton" onclick="accion()">Menú</button>
+        </li>
+        <li class="nav-enlace desaparece" id="nvs">
+          <a href="inicio.html">Inicio</a>
+        </li>
+        <li class="nav-enlace desaparece">
+          <a href="objetivosProyecto.html" id="Objetivos"
+            >Objetivo del proyecto</a
+          >
+        </li>
+        <li class="nav-enlace desaparece">
+          <a href="menu.html" id="Informacion">Información escrita</a>
+        </li>
+        <li class="nav-enlace desaparece">
+          <a href="creditosReferencias.html" id="Creditos"
+            >Creditos y referencias</a
+          >
+        </li>
       </ul>
     </nav>
-  </header>
-
-</body>
+    <script src="../js/scrip.js"></script>
+  </body>
 </html>

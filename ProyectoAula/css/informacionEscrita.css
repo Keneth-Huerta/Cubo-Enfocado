@@ -1,0 +1,28 @@
+section {
+    margin: auto;
+    margin-top: 50px;
+}
+section ul li {
+  border: 1px solid black;
+  width: 21vw;
+  text-align: center;
+  text-decoration: none;
+  background-color: #a9a9a9;
+  border-radius: 25px;
+  transition: transform 1s;
+  margin: 10px;
+}
+section ul li:hover {
+  transform: scale(1.15);
+}
+section ul li a {
+  font-size: 2vw;
+  color: black;
+  text-decoration: none;
+}
+
+img {
+  height: 20vw;
+  margin: auto;
+  border-radius: 30px;
+}
