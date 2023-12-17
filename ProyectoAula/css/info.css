@@ -5,10 +5,18 @@ section {
 p {
   width: 70vw;
   margin: auto;
-
+  text-shadow: 1px 1px 1px white;
   text-align: justify;
+}
+h2{
+  text-shadow: 1px 1px 1px white;
+}
+h3{
+  text-shadow: 1px 1px 1px white;
 }
 .junto {
   text-align: center;
-  text-shadow: 1px 1px 1px white;
+}
+.img{
+  height: 200px;
 }
