@@ -20,3 +20,11 @@ h3{
 .img{
   height: 200px;
 }
+#qr{
+  transition: all .5s;
+  cursor: pointer;
+}
+.qr{
+  
+  transform: scale(5) translate(-75px,60px);
+}
