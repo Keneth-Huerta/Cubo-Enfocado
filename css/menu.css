@@ -1,0 +1,152 @@
+nav {
+  background: #035aa6;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  float: left;
+  border-radius: 6px;
+  background: -webkit-linear-gradient(left, #035aa6, #5ba9d9);
+}
+.barra {
+  padding: 0 20px;
+  background: #035aa6;
+  transform: translatey(-45px) translateX(80px);
+  padding-top: 1.5px;
+  cursor: pointer;
+  z-index: 0;
+}
+li a,
+.dropbtn {
+  display: block;
+  text-decoration: none;
+  padding: 22px 30px;
+  color: black;
+  text-align: center;
+}
+li a:hover,
+.desplegable:hover {
+  background: -webkit-linear-gradient(left, #5ba9d9, #035aa6);
+  border-radius: 6px;
+}
+li.desplegable {
+  display: block;
+  border-radius: 6px;
+}
+.ns {
+  translate: 2px;
+}
+.idi {
+  justify-tracks: center;
+  display: block;
+  padding: 4px 17px 6px 20px;
+}
+.desplegable-contenido {
+  display: none;
+  position: absolute;
+  background: white;
+  min-width: 110px;
+  box-shadow: 0px 8px 16px;
+  z-index: 1;
+  border-radius: 6px;
+}
+.desplegable-contenido a {
+  text-align:center;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border-radius: 6px;
+}
+.desplegable-contenido a:hover {
+  color: #fff;
+}
+.desplegable:hover .desplegable-contenido {
+  display: block;
+}
+.nav-boton {
+  background: -webkit-linear-gradient(left, #035aa6, #5ba9d9);
+  color: black;
+  padding: 10px 60px;
+  border: none;
+  display: none;
+  border-radius: 6px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 16px;
+  box-shadow: none;
+}
+.nav-boton:hover {
+  background: -webkit-linear-gradient(left, #5ba9d9, #035aa6);
+}
+.animacion {
+  background: #035aa6;
+  animation: colores 0.5s infinite alternate;
+}
+#mover{
+  position: absolute;
+  left: 0.3%;
+  height: 62px;
+  /* display: none; */
+}
+#mover a{
+  height: 18px;
+}
+#mimg{
+  transform: scale(-1,-1);
+  left: 10%;
+  top: 17%;
+  width: 45px;
+  position: absolute;
+}
+@keyframes colores {
+  0% {
+    background: #035aa6;
+    border-radius: 6px;
+    color: white;
+  }
+  15% {
+    background-color: #035aa6;
+    color: white;
+    border-radius: 6px;
+  }
+  100% {
+    border-radius: 6px;
+    color: black;
+    background: #5ba9d9;
+  }
+}
+@media (max-width: 687px) {
+  .desplegable-contenido {
+  min-width: 160px;
+}
+  nav {
+    background-color: white;
+    box-shadow: none;
+    border-radius: 0;
+    margin: 0;
+  }
+  .nav-boton {
+    display: inline-block;
+  }
+  .desaparece {
+    display: none;
+  }
+  li {
+    display: block;
+    float: none;
+    text-align: center;
+    margin: 6px 0 6px 0;
+    box-shadow: 4px 4px 7px;
+  }
+}
+@media (max-width: 1356px) {
+  iframe {
+    width: 70vw;
+  }
+}

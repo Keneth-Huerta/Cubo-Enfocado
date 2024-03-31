@@ -1,0 +1,20 @@
+<html>
+	<head>
+		<title>Frame Colores</title>
+		
+	</head>
+	
+	<frameset rows="18%,65%,*" noresize bordercolor="green" frameborder="si"><!--Noresize sirve para que se muevan los bordes o no.
+	frameborder sirve para si se quiere que se vean los bordes o no.
+	bordercolor sirve para el color de los bordes de todos los frames anidados en la etiqueta-->
+		<frame src="Encabezado.html">
+		
+		<frameset cols="15%,*">
+			<frame src="Menu.html" marginwidth="50"><!--Pone un margen en pixeles hacia el contenido del frame-->
+			<frame src="Blanco.html" name="principal" >
+		</frameset>
+		
+		<frame src="Datos.html" scrolling="no"><!--scrolling se usa para la barra de desplazamiento-->
+	</frameset>
+	<div id="ultimo"></div>
+</html>
